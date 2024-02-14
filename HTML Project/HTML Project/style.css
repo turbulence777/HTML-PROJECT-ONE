@@ -1,0 +1,132 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+.MyNav {
+        position: fixed;
+        width: 100px;
+        background-color: transparent;
+        height: 70px;
+        line-height: 100px;
+        font-weight: bold;
+        
+        
+        
+}
+
+.MyNav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.MyNav ul li {
+    display: inline;
+    padding: 0%;
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 20px;
+}
+
+.MyNav ul li a{
+    text-decoration: none;
+    text-align: center;
+    text-decoration: none;
+    color: #ffee00;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+
+.MyNav ul li a:hover{
+    color: #e6e5d7;z
+
+}
+
+
+
+#myimage{
+    width: 100%;
+    height: 100%;
+    
+
+}
+
+p {
+    background-color: transparent;
+    color: rgb(21, 20, 20);
+    text-align: center;
+    padding: 5%;
+    font-family: fantasy;
+    font-size: x-large
+    
+}
+
+.overlay-text{
+    position: absolute;
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    background-color: black; 
+    color: #fff; 
+    padding: 10px 20px; 
+    font-size: 20px; 
+    text-align: center;
+}
+
+ol {
+    list-style-type: none;
+}
+
+#contact {
+    margin: 20px;
+    padding: 10px;
+}
+
+#contact > input, label, button {
+    display: block;
+}
+
+
+
+input {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    
+}
+
+
+.btn {
+    width: 30%;
+    margin: auto;
+    /* margin-left: 25%; */
+    background-color: rgb(243, 146, 11);
+    border-radius: 5px;
+    height: 50px;
+    font-size: 20px;
+    color: black;
+    cursor: pointer;
+
+}
+
+.btn:hover {
+    background-color: orange;
+    border: none;
+    color: black;
+}
+
